@@ -1,0 +1,28 @@
+Source: node-aproba
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Tushar Agey <agey.tushar3@gmail.com>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , node-tap <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-aproba
+Vcs-Git: https://salsa.debian.org/js-team/node-aproba.git
+Homepage: https://github.com/iarna/aproba
+Rules-Requires-Root: no
+
+Package: node-aproba
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: light-weight argument validator
+ Ridiculously light-weight argument validator with Node.js that is an
+ event-based server-side JavaScript engine
+ .
+ This JavaScript engine can help you to do argument validation in
+ easy manner. It is easier and concise to use than that of assertions.
+ The types are specified by a single character and there is nothing
+ like optional argument.

@@ -1,0 +1,57 @@
+node-aproba (2.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-aproba: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Declare compliance with policy 4.6.0
+
+ -- Yadd <yadd@debian.org>  Fri, 20 Aug 2021 17:21:41 +0200
+
+node-aproba (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+  * Trim trailing whitespace.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools auto test & install
+  * Update VCS fields to salsa
+  * Update copyright
+  * New upstream version 2.0.0
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 18 Feb 2020 21:27:35 +0100
+
+node-aproba (1.2.0-1) unstable; urgency=medium
+
+  * Team upload
+  * new upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 28 Sep 2017 17:48:18 +0530
+
+node-aproba (1.0.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Reupload to unstable
+  * Bump standards version to 4.0.0
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 06 Jul 2017 14:03:30 +0530
+
+node-aproba (1.0.4-1) experimental; urgency=low
+
+  * Initial release (Closes: #850126)
+
+ -- Tushar Agey <agey.tushar3@gmail.com>  Thu, 05 Jan 2017 09:35:44 +0000
