@@ -1,0 +1,23 @@
+Description: fix for tap >= 15
+Author: Yadd <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2022-04-13
+
+--- a/test/aproba-arg-validation.js
++++ b/test/aproba-arg-validation.js
+@@ -40,5 +40,5 @@
+   thrown(t, 'EINVALIDTYPE', 'second arg not arrayish', () => {
+     validate('O', 23)
+   })
+-  t.done()
++  t.end()
+ })
+--- a/test/index.js
++++ b/test/index.js
+@@ -96,5 +96,5 @@
+   } catch (ex) {
+     t.match(ex.message, /Expected object but got array/, 'When reporting non-objects, uses aproba types')
+   }
+-  t.done()
++  t.end()
+ })

@@ -1,1 +1,1 @@
-tap test/*.js
+tap -R tap test/*.js

@@ -16,7 +16,6 @@ Rules-Requires-Root: no
 Package: node-aproba
 Architecture: all
 Depends: ${misc:Depends}
- , nodejs
 Multi-Arch: foreign
 Description: light-weight argument validator
  Ridiculously light-weight argument validator with Node.js that is an
