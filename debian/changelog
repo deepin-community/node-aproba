@@ -1,3 +1,12 @@
+node-aproba (2.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Fix test for tap >= 15 (Closes: #1009567)
+
+ -- Yadd <yadd@debian.org>  Wed, 13 Apr 2022 15:11:31 +0200
+
 node-aproba (2.0.0-2) unstable; urgency=medium
 
   * Team upload
